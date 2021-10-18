@@ -1,0 +1,37 @@
+body{
+    background-color: #dddd;
+    margin: auto ;
+}
+.container{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.timer{ 
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 24px 32px;
+    border-radius: 30px;
+    background-color: white;
+}
+.timer__part{
+    font-size: 36px;
+    font-weight: bold;
+}
+.timer__btn{
+    width: 50px;
+    height: 50px;
+    margin-left: 16px;
+    border-radius: 50%;
+    border: none;
+    background-color: #8208e6;
+    cursor: pointer;
+    color: white;
+}
+.timer__btn--start{
+    background-color: yellowgreen;
+}
+.timer__btn--stop{
+    background-color: red;
+}
